@@ -1,0 +1,5 @@
+N, k = input().split()
+x = input()
+x_list = sorted(list(map(int,x.split())),reverse=True)
+k = int(k)
+print(x_list[k-1])
