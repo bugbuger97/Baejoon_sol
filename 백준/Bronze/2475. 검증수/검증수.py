@@ -1,4 +1,3 @@
-if __name__ == '__main__':
-  num = list(map(int,input().split(' ')))
-  result = sum([i**2 for i in num])
-  print(result%10)
+numbers = list(map(int,input().split()))
+sqrt_numbers = [i**2 for i in numbers]
+print(sum(sqrt_numbers)%10)
